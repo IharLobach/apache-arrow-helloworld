@@ -11,7 +11,7 @@ git clone https://github.com/apache/arrow.git
 cd arrow/cpp
 mkdir release
 cd release
-cmake .. -DARROW_PARQUET=ON -DARROW_PLASMA=ON -DARROW_WITH_SNAPPY=ON -DARROW_WITH_ZLIB=ON
+cmake .. -DARROW_DATASET=ON -DARROW_FILESYSTEM=ON -DARROW_PARQUET=ON -DARROW_PLASMA=ON -DARROW_PYTHON=ON -DARROW_WITH_SNAPPY=ON -DARROW_WITH_ZLIB=ON 
 make
 sudo make install
 ```
